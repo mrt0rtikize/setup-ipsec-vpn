@@ -90,13 +90,13 @@ To install the VPN, please choose one of the following options:
 **Option 1:** Have the script generate random VPN credentials for you (will be displayed when finished):
 
 ```bash
-wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+wget https://git.io/vbyEY -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
 
 **Option 2:** Edit the script and provide your own VPN credentials:
 
 ```bash
-wget https://git.io/vpnsetup -O vpnsetup.sh
+wget https://git.io/vbyEY -O vpnsetup.sh
 nano -w vpnsetup.sh
 [Replace with your own values: YOUR_IPSEC_PSK, YOUR_USERNAME and YOUR_PASSWORD]
 sudo sh vpnsetup.sh
